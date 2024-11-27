@@ -10,6 +10,6 @@ class Tiger extends CarnivorousAnimal
 
     public function __construct($name)
     {
-        parent::__construct($name, 'tygrys');
+        parent::__construct($name, 'Tiger');
     }
 }

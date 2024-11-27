@@ -8,6 +8,6 @@ class Elephant extends HerbivorousAnimal
 {
     public function __construct($name)
     {
-        parent::__construct($name, 'słoń');
+        parent::__construct($name, 'Elephant');
     }
 }
