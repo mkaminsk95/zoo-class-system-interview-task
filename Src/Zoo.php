@@ -8,6 +8,9 @@ use Src\Animals\Animal;
 
 class Zoo
 {
+    /**
+     * @var array<Animal>
+     */
     private array $animals = [];
 
     public function addAnimal(Animal $animal): void
@@ -15,6 +18,10 @@ class Zoo
         $this->animals[] = $animal;
     }
 
+    /**
+     * @param array<Animal> $animals
+     * @return void
+     */
     public function addAnimals(array $animals): void
     {
         foreach ($animals as $animal) {

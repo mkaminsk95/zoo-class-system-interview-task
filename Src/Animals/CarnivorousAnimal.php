@@ -6,12 +6,12 @@ namespace Src\Animals;
 
 abstract class CarnivorousAnimal extends Animal
 {
-    public function __construct($name, $species)
+    public function __construct(string $name, string $species)
     {
         parent::__construct($name, $species);
     }
 
-    public function eat($food): void
+    public function eat(string $food): void
     {
         if ($food === 'meat') {
             echo $this->name . " is eating meat.\n";
