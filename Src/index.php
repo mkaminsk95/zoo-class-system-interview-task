@@ -22,9 +22,9 @@ $elephant = new Elephant('Dumbo');
 $rhino = new Rhino('George');
 $snowLeopard = new SnowLeopard('Pete');
 
-echo $firstTiger."\n";
-echo $fox."\n";
-echo $elephant."\n";
+echo $firstTiger . "\n";
+echo $fox . "\n";
+echo $elephant . "\n";
 
 $zoo = new Zoo();
 $zoo->addAnimals([
