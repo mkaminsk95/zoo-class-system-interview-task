@@ -7,7 +7,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Src\\": "src/"
+            "Src\\": "Src/"
         }
     },
     "autoload-dev": {
@@ -17,6 +17,6 @@
     },
     "scripts": {
         "phpstan": "phpstan analyse",
-        "phpcs": "phpcs --standard=PSR12 src/"
+        "phpcs": "phpcs --standard=PSR12 Src/"
     }
 }
