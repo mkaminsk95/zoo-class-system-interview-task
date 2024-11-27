@@ -14,9 +14,9 @@ abstract class HerbivorousAnimal extends Animal
     public function eat($food): void
     {
         if ($food === 'plant') {
-            echo $this->name . " is eating plant.\n";
+            echo $this->name . __(' is eating plant.') . PHP_EOL;
         } else {
-            echo $this->name . " cannot eat this food.\n";
+            echo $this->name . __(' cannot eat this food.') . PHP_EOL;
         }
     }
 }
