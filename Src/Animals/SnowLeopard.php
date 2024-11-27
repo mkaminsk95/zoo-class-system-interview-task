@@ -11,6 +11,6 @@ class SnowLeopard extends OmnivorousAnimal
 
     public function __construct($name)
     {
-        parent::__construct($name, 'irbis śnieżny');
+        parent::__construct($name, 'Snow leopard');
     }
 }

@@ -8,6 +8,6 @@ class Rhino extends HerbivorousAnimal
 {
     public function __construct($name)
     {
-        parent::__construct($name, 'nosorożec');
+        parent::__construct($name, 'Rhino');
     }
 }
