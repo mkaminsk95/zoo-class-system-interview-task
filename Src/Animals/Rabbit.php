@@ -10,6 +10,6 @@ class Rabbit extends HerbivorousAnimal
 
     public function __construct($name)
     {
-        parent::__construct($name, 'królik');
+        parent::__construct($name, 'Rabbit');
     }
 }
