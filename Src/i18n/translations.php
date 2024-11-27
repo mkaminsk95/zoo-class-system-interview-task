@@ -4,7 +4,7 @@ return [
     'pl' => [
         'Zoo is empty' => 'Zoo jest puste',
         'Animals in the zoo' => 'Zwierzęta w zoo:',
-        'is being combed' => 'jest właśnie czesany',
+        ' is being combed.' => ' jest właśnie czesany',
         'Tiger' => 'Tygrys',
         'Fox' => 'Lis',
         'Rabbit' => 'Królik',

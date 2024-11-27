@@ -6,8 +6,8 @@ namespace Src\Animals;
 
 trait CombFur
 {
-    protected function combFur(): void
+    public function combFur(): void
     {
-        echo $this->name . " " . __('is being combed') . PHP_EOL;
+        echo $this->name . __(' is being combed.') . PHP_EOL;
     }
 }
