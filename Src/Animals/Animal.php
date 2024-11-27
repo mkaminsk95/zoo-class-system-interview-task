@@ -9,7 +9,8 @@ abstract class Animal
     public function __construct(
         protected string $name,
         protected string $species
-    ) {}
+    ) {
+    }
 
     public function __toString(): string
     {
