@@ -37,7 +37,7 @@ class Zoo
     public function showAnimals(): void
     {
         if (empty($this->animals)) {
-            echo "Zoo jest puste.\n";
+            echo "Zoo jest puste . \n";
             return;
         }
 
