@@ -13,7 +13,7 @@ abstract class Animal
 
     public function __toString(): string
     {
-        return $this->species . ' ' . $this->name;
+        return __($this->species) . ' ' . $this->name;
     }
     public function getName(): string
     {

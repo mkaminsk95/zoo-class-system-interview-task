@@ -8,6 +8,6 @@ trait CombFur
 {
     protected function combFur(): void
     {
-        echo $this->name . " is being combed.\n";
+        echo $this->name . " " . __('is being combed') . PHP_EOL;
     }
 }

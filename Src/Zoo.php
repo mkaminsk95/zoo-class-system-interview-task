@@ -30,13 +30,13 @@ class Zoo
     public function showAnimals(): void
     {
         if (empty($this->animals)) {
-            echo "Zoo jest puste.\n";
+            echo __('Zoo is empty') . PHP_EOL;
             return;
         }
 
-        echo "Zwierzęta w zoo:\n";
+        echo __('Animals in the zoo:') . PHP_EOL;
         foreach ($this->animals as $animal) {
-            echo $animal . "\n";
+            echo $animal . PHP_EOL;
         }
     }
 }
