@@ -10,6 +10,6 @@ class Fox extends OmnivorousAnimal
 
     public function __construct($name)
     {
-        parent::__construct($name, 'lis');
+        parent::__construct($name, 'Fox');
     }
 }
