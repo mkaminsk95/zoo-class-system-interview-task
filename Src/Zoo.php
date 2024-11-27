@@ -29,6 +29,11 @@ class Zoo
 
     public function showAnimals(): void
     {
+        if (empty($this->animals)) {
+            echo "Zoo jest puste.\n";
+            return;
+        }
+
         echo "Zwierzęta w zoo:\n";
         foreach ($this->animals as $animal) {
             echo $animal . "\n";
