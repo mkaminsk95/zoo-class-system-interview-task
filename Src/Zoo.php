@@ -25,6 +25,9 @@ class Zoo
     public function addAnimals(array $animals): void
     {
         foreach ($animals as $animal) {
+            if (!$animal instanceof Animal) {
+                throw new \InvalidArgumentException(__('Every array element has to be an instance of animal class'));
+            }
             $this->addAnimal($animal);
         }
     }
