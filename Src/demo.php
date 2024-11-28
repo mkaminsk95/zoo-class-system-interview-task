@@ -22,10 +22,13 @@ $elephant = new Elephant('Dumbo');
 $rhino = new Rhino('George');
 $snowLeopard = new SnowLeopard('Pete');
 
-echo $firstTiger . "\n";
-echo $fox . "\n";
-echo $elephant . "\n";
+echo __('Animals can be used as strings:') . PHP_EOL;
+echo $firstTiger . ', ' . $fox . ', ' . $elephant . PHP_EOL . PHP_EOL;
 
+echo __('Animals can be combed:') . PHP_EOL;
+echo $firstTiger->combFur() . $fox->combFur() . PHP_EOL;
+
+echo __('Animals can be added to zoo and then listed:') . PHP_EOL;
 $zoo = new Zoo();
 $zoo->addAnimals([
     $firstTiger,
